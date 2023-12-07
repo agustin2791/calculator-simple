@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.calc-container {
+  width: 30%;
+  margin: 20px auto;
+}
+.calc-display {
+  background-color: #aaa;
+  font-size: 3em;
+  font-weight: 400;
+  width: 96%;
+  height: 100px;
+  text-align: right;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calc-button, .clear-button, .sub-button {
+  position: relative
+}
+.clear-button {
+  width: 96%;
+}
+.calc-button {
+  width: 32%;
+  height: 90px;
+}
+.sub-button {
+  width: 64%;
+}
+.calc-history {
+  width: 100%;
+}
+.display {
+  width: 100%;
+  height: 90px;
+  font-size: 2rem;
+}
